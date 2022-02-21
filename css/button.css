@@ -37,3 +37,12 @@
     --button-text-color: var(--color-black);
     --button-background-color: var(--color-white);
 }
+
+.button_theme_transparent {
+    --button-text-color: var(--color-black);
+    --button-border-color: var(--color-black);
+}
+.button_theme_transparent-onhover {
+    --button-text-color: var(--color-white);
+    --button-border-color: var(--color-white);
+}

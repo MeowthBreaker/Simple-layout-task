@@ -12,19 +12,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    text-align: center;
-}
-
-.about__text-title {
-    font-size: 2rem;
-    
 }
 
 .about__text-description {
     margin-top: 20px;
-
-    font-size: 1.2rem;
 }
 
 .about__cards-icon {
@@ -46,16 +37,8 @@
     align-items: center;
 
     width: 200px;
-
-    text-align: center;
 }
 
 .about__card-title {
-    font-size: 1.5rem;
-
     margin: 25px 0 15px 0;
-}
-
-.about__card-description {
-    font-size: 0.9rem;
 }

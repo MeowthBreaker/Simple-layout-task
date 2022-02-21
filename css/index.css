@@ -1,8 +1,11 @@
 @import url(vars.css);
-@import url(header.css);
+@import url(text.css);
 @import url(button.css);
+
+@import url(header.css);
 @import url(about.css);
 @import url(services.css);
+@import url(services-cards.css);
 
 body {
     margin: 0;
@@ -10,4 +13,6 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
+
+    width: 100vw;
 }

@@ -1,0 +1,24 @@
+.text_headline_1 {
+    font-size: 4.5rem;
+}
+
+.text_headline_2 {
+    font-size: 2rem;
+}
+
+.text_centered {
+    text-align: center;
+}
+
+.text_size_m {
+    font-size: 0.9rem;
+}
+
+.text_size_l {
+    font-size: 1.3rem;
+}
+
+
+.text_size_xl {
+    font-size: 1.5rem;
+}

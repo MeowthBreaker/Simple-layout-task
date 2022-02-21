@@ -1,6 +1,37 @@
 .services {
     width: 100%;
     height: 120vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 
     background-color: var(--color-aqua);
+}
+
+.services__text {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__text-description {
+    margin-top: 20px;
+}
+
+.services__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 100%;
+    padding: 0 4vw;
 }
