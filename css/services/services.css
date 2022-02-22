@@ -25,13 +25,12 @@
 
 .services__cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-columns: repeat(auto-fill, 500px);
     grid-gap: 40px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
     box-sizing: border-box;
     margin-top: 100px;
     width: 100%;
-    padding: 0 4vw;
 }

@@ -1,7 +1,7 @@
 .button {
     --button-border-color: var(--color-black);
     --button-text-color: var(--color-black);
-    --button-padding: 15px 20px;
+    --button-padding: 10px 20px;
     --button-background-color: transparent;
 
     padding: var(--button-padding);
@@ -45,4 +45,14 @@
 .button_theme_transparent-onhover {
     --button-text-color: var(--color-white);
     --button-border-color: var(--color-white);
+}
+
+.button_theme_transparent-green {
+    --button-text-color: var(--color-black);
+    --button-border-color: var(--color-green);
+}
+
+.button_theme_transparent-green:hover {
+    --button-text-color: var(--color-white);
+    --button-background-color: var(--color-green);
 }

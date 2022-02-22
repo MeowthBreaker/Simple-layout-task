@@ -1,0 +1,43 @@
+.latest-works__card {
+    margin: 0 25px;
+    justify-self: center;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 300px;
+    min-width: 300px;
+    overflow: hidden;
+
+    transition: 0.2s linear all;
+}
+
+.latest-works__card .latest-works__card-image {
+    position: absolute;
+    
+}
+
+.latest-works__card-image {
+    width: 300px;
+}
+
+.latest-works__card-text {
+    visibility: hidden;
+    color: var(--color-white);
+}
+
+.latest-works__card:hover {
+    background-color: black;
+}
+
+.latest-works__card:hover .latest-works__card-text {
+    visibility: visible;
+}
+
+.latest-works__card:hover .latest-works__card-image {
+    opacity: 70%;
+}
