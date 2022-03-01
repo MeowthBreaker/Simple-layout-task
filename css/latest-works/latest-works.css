@@ -1,6 +1,8 @@
 .latest-works {
     width: 100%;
     box-sizing: border-box;
+
+    padding: 50px 0;
 }
 
 .latest-works__buttons {
@@ -10,7 +12,7 @@
     justify-content: center;
     align-items: center;
 
-
+    padding: 20px 0;
 }
 
 .latest-works__button {
@@ -26,4 +28,6 @@
 
     box-sizing: border-box;
     width: 100%;
+
+    padding: 20px 0;
 }

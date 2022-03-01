@@ -4,10 +4,15 @@
 
 @import url(header.css);
 @import url(about.css);
+
 @import url(services/services.css);
 @import url(services/services-cards.css);
+
 @import url(latest-works/latest-works.css);
 @import url(latest-works/latest-works-cards.css);
+
+@import url(pricing-plan/pricing-plan.css);
+@import url(pricing-plan/pricing-plan-cards.css);
 
 body {
     margin: 0;

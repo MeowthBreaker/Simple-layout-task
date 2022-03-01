@@ -22,3 +22,11 @@
 .text_size_xl {
     font-size: 1.5rem;
 }
+
+.text_top {
+    vertical-align: super;
+}
+
+.text_bottom {
+    vertical-align: text-bottom;
+}

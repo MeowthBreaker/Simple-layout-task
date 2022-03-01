@@ -1,0 +1,13 @@
+.pricing-plan {
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: #f0f1f1;
+}
+
+.pricing-plan__cards {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: grid;
+}
