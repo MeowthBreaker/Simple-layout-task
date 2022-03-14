@@ -1,0 +1,25 @@
+.team {
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: var(--color-white);
+    
+    padding: 60px 0;
+}
+
+.team__slider-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-column-gap: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.team__text {
+    padding-bottom: 60px;
+}
+
+.team__text-title {
+    padding-bottom: 40px;
+}

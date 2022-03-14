@@ -2,7 +2,17 @@
     width: 100%;
     box-sizing: border-box;
 
-    background-color: #f0f1f1;
+    background-color: var(--color-light-gray);
+    
+    padding: 60px 0;
+}
+
+.pricing-plan__text {
+    margin-bottom: 60px;
+}
+
+.pricing-plan__text-title {
+    padding-bottom: 40px;
 }
 
 .pricing-plan__cards {
@@ -10,4 +20,10 @@
     box-sizing: border-box;
 
     display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap: 20px;
+    padding: 25px 0px;
+
+    justify-content: center;
+    align-items: center;
 }

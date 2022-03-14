@@ -1,6 +1,5 @@
 .services {
     width: 100%;
-    height: 120vh;
     
     display: flex;
     flex-direction: column;
@@ -8,6 +7,8 @@
     justify-content: space-evenly;
 
     background-color: var(--color-aqua);
+
+    padding: 60px 0;
 }
 
 .services__text {

@@ -8,10 +8,14 @@
     justify-content: space-between;
     align-items: center;
 
-    max-width: 320px;
+    max-width: 400px;
 
     background-color: var(--color-white);
     z-index: 0;
+
+    padding: 40px 15px;
+
+    transition: 0.2s linear all;
 }
 
 .pricing-plan__card::before {
@@ -25,9 +29,14 @@
     z-index: -1;
 
     width: 200%;
-    height: 200px;
+    height: 250px;
 
     background-color: var(--color-dark-blue);
+}
+
+.pricing-plan__card:hover {
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
 }
 
 .pricing-plan__card-text-title {
@@ -54,7 +63,7 @@
 
 .pricing-plan__card-list {
     list-style: none;
-    padding: 0;
+    padding: 60px 0;
 }
 
 .pricing-plan__list-item {

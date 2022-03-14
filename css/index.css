@@ -14,6 +14,10 @@
 @import url(pricing-plan/pricing-plan.css);
 @import url(pricing-plan/pricing-plan-cards.css);
 
+@import url(team/team.css);
+@import url(team/team-card.css);
+@import url(team/team-slider.css);
+
 body {
     margin: 0;
     padding: 0;
