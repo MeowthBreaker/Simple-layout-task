@@ -18,6 +18,8 @@
 @import url(team/team-card.css);
 @import url(team/team-slider.css);
 
+@import url(blog/blog.css);
+@import url(blog/blog-seo.css);
 body {
     margin: 0;
     padding: 0;

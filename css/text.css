@@ -30,3 +30,12 @@
 .text_bottom {
     vertical-align: text-bottom;
 }
+
+.text_link {
+    color: var(--color-black);
+}
+
+.text_link:hover {
+    color: var(--color-green);
+    cursor: pointer;
+}
