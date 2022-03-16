@@ -20,12 +20,21 @@
 
 @import url(blog/blog.css);
 @import url(blog/blog-seo.css);
+
+@import url(contact/contact.css);
+@import url(contact/contact-cards.css);
+@import url(contact/contact-form.css);
+
 body {
     margin: 0;
     padding: 0;
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
+    
+    width: 100%;
+}
 
-    width: 100vw;
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(12px + 0.3vw);
 }

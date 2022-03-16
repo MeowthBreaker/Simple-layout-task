@@ -1,0 +1,33 @@
+.contact__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+}
+
+.contact__card div:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.contact__card-image-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    width: 125px;
+    height: 125px;
+
+    background-color: var(--color-dark-blue);
+}
+
+.contact__card-image {
+    width: 75%;
+}
+
+.contact__card-text, .contact__text {
+    color: var(--color-white);
+}

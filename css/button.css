@@ -35,6 +35,8 @@
     --button-background-color: var(--color-green);
 }
 
+
+
 .button_theme_white {
     --button-border-color: var(--color-white);
     --button-text-color: var(--color-white);
@@ -68,4 +70,10 @@
 .button_theme_transparent-green:hover {
     --button-text-color: var(--color-white);
     --button-background-color: var(--color-green);
+}
+
+.button_theme_white-rounded {
+    --button-text-color: var(--color-black);
+    --button-background-color: var(--color-white);
+    --button-border-color: var(--color-white);
 }

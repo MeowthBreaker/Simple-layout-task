@@ -1,13 +1,13 @@
 .header {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .header__top {
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;
+    max-width: 100%;
     height: 120px;
     padding: 0 14vw;
     box-sizing: border-box;

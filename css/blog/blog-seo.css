@@ -1,4 +1,4 @@
-.blog__seo {
+.blog__seo-card {
     width: 100%;
     height: 500px;
 
@@ -9,16 +9,16 @@
     align-items: flex-start;
 }
 
-.blog__seo:nth-child(odd) {
+.blog__seo-card:nth-child(odd) {
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-.blog__seo:nth-child(odd) .blog__seo-text {
+.blog__seo-card:nth-child(odd) .blog__seo-card-text {
     padding-left: 0;
 }
 
-.blog__seo-image {
+.blog__seo-card-image {
     width: 40vw;
     height: 150%;
     object-fit: cover;
@@ -26,12 +26,12 @@
     display: block;
 }
 
-.blog__seo-image-cont {
+.blog__seo-card-image-cont {
     height: 100%;
     overflow: hidden;
 }
 
-.blog__seo-text {
+.blog__seo-card-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -39,24 +39,24 @@
     padding: 40px 0 0 40px;
 }
 
-.blog__seo-text div:not(:last-child) {
+.blog__seo-card-text div:not(:last-child) {
     margin-bottom: 5px;
 }
 
-.blog__seo-title {
+.blog__seo-card-title {
     text-decoration: none;
 }
 
-.blog__seo-description {
+.blog__seo-card-description {
     width: 500px;
 }
 
-.blog__seo-meta {
+.blog__seo-card-meta {
     display: flex;
     flex-direction: row;
 }
 
-.blog__seo-date {
+.blog__seo-card-date {
     display: flex;
     flex-direction: row;
 
@@ -65,27 +65,27 @@
     margin-right: 10px;
 }
 
-.blog__seo-date-icon {
+.blog__seo-card-date-icon {
     width: 10px;
     margin-right: 10px;
 }
 
-.blog__seo-date-text {
+.blog__seo-card-date-text {
     margin: 0;
 }
 
-.blog__seo-link {
+.blog__seo-card-link {
     display: flex;
     flex-direction: row;
 
     height: 20px;
 }
 
-.blog__seo-link-icon {
+.blog__seo-card-link-icon {
     width: 10px;
     margin-right: 10px;
 }
 
-.blog__seo-link-text {
+.blog__seo-card-link-text {
     margin: 0;
 }

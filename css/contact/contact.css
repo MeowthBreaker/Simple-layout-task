@@ -1,0 +1,51 @@
+.contact {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../../image/contact/contact-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    padding: 100px 0;
+}
+
+.contact__cards {
+    width: 80vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    padding-bottom: 100px;
+}
+
+.contact__form {
+    width: 80vw;
+}
+
+.contact__text {
+    width: 90vw;
+    padding-bottom: 100px;
+}
+
+.contact__text-title {
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1050px) {
+    .contact__cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .contact__cards .contact__card:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
