@@ -48,7 +48,7 @@
 }
 
 .blog__seo-card-description {
-    width: 500px;
+    width: 40vw;
 }
 
 .blog__seo-card-meta {
@@ -88,4 +88,27 @@
 
 .blog__seo-card-link-text {
     margin: 0;
+}
+
+@media screen and (max-width: 1000px){
+    .blog__seo-card-text {
+        padding: 0;
+        width: 100%;
+    }
+
+    .blog__seo-card-image-cont {
+        display: none;
+    }
+
+    .blog__seo-card {
+        height: fit-content;
+    }
+
+    .blog__seo-card:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .blog__seo-card-description {
+        width: 100%;
+    }
 }
