@@ -1,0 +1,46 @@
+.slider {
+    overflow-x: hidden;
+}
+
+.slider__button {
+    background-color: var(--color-green);
+
+    border-radius: 50%;
+
+    width: 12px;
+    height: 12px;
+}
+
+.slider__buttons {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+.slider__button:hover {
+    background-color: var(--color-dark-blue);
+    opacity: 0.5;
+}
+
+.slider__buttons .slider__button:not(:last-child) {
+    margin-right: 5px;
+}
+
+.slider__button_active {
+    background-color: var(--color-dark-blue);
+}
+
+.slider__container {
+    transition: all linear 0.2s;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slider__item {
+    width: 100%;
+    min-width: 100%;
+}
