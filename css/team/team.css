@@ -23,3 +23,17 @@
 .team__text-title {
     padding-bottom: 40px;
 }
+
+@media screen and (max-width:1100px) {
+    .team__slider-cards {
+        grid-gap: 0px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .team__slider-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

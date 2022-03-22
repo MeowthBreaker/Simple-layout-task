@@ -1,5 +1,4 @@
 .team__slider-card {
-    width: 350px;
 }
 
 .team__slider-card-image {
@@ -12,6 +11,11 @@
     margin-right: auto;
 
     border-radius: 5%;
+
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 .team__slider-button-icon {
@@ -24,7 +28,7 @@
     justify-content: center;
 }
 
-.team__slider-card-buttons .team__slider-card-button:not(:last-child) {
+.team__slider-card-button:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -56,3 +60,33 @@
     margin: 20px 0;
 }
 
+@media screen and (max-width: 1100px) {
+    .team__slider-card-image {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .team__slider-card-button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .team__slider-card-button:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    .team__slider-button-icon {
+        width: 15px;
+    }
+
+    .team__slider-card-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .team__slider-card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

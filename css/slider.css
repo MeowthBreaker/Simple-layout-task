@@ -1,5 +1,6 @@
 .slider {
     overflow-x: hidden;
+    user-select: none;
 }
 
 .slider__button {
