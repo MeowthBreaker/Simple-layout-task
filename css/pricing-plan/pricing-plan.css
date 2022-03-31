@@ -5,10 +5,16 @@
     background-color: var(--color-light-gray);
     
     padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-plan__text {
     margin-bottom: 60px;
+    width: 90vw;
 }
 
 .pricing-plan__text-title {
@@ -20,10 +26,17 @@
     box-sizing: border-box;
 
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 350px);
     grid-column-gap: 20px;
     padding: 25px 0px;
 
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .pricing-plan__cards {
+        display: flex;
+        flex-direction: column;
+    }
 }

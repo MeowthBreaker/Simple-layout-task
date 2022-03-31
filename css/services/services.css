@@ -12,7 +12,10 @@
 }
 
 .services__text {
-    width: 100%;
+    width: 90vw;
+    padding-bottom: 60px;
+
+    align-self: center;
 
     display: flex;
     flex-direction: column;

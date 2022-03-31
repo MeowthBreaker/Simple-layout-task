@@ -3,6 +3,19 @@
     box-sizing: border-box;
 
     padding: 50px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-works__text {
+    margin-bottom: 60px;
+    width: 90vw;
+    align-self: center;
+}
+
+.latest-works__text-title {
+    padding-bottom: 40px;
 }
 
 .latest-works__buttons {
@@ -15,8 +28,8 @@
     padding: 20px 0;
 }
 
-.latest-works__button {
-    margin: 0 15px;
+.latest-works__button:not(:last-child) {
+    margin-right: 15px;
 }
 
 .latest-works__cards {
@@ -30,4 +43,19 @@
     width: 100%;
 
     padding: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+    .latest-works__buttons {
+        flex-direction: column;
+    }
+
+    .latest-works__button {
+        width: 200px;
+    }
+
+    .latest-works__button:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
