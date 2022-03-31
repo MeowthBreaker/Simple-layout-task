@@ -13,6 +13,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="top-arrow">
+    <img src="./image/top-arrow.svg" alt="" class="top-arrow__anchor">
+  </div>
+
+  <div class="burger">
+    <div class="burger__line"></div>
+    <div class="burger__line"></div>
+    <div class="burger__line"></div>
+  </div>
+
   <header class="header">
     <div class="header__top">
       <div class="header__logo text_size_l">
@@ -21,17 +31,18 @@
   
       <nav class="header__nav">
         <ul class="header__list">
-          <li class="header__list-item text_size_l">Home<a href="" class="header__list-link"></a></li>
-          <li class="header__list-item text_size_l">About<a href="" class="header__list-link"></a></li>
-          <li class="header__list-item text_size_l">Servicing<a href="" class="header__list-link"></a></li>
-          <li class="header__list-item text_size_l">Portfolio<a href="" class="header__list-link"></a></li>
-          <li class="header__list-item text_size_l">Blog<a href="" class="header__list-link"></a></li>
-          <li class="header__list-item text_size_l">Contact us<a href="" class="header__list-link"></a></li>
+          <li class="header__list-item text_size_l" data-id="header">Home</li>
+          <li class="header__list-item text_size_l" data-id="about">About</li>
+          <li class="header__list-item text_size_l" data-id="services">Servicing</li>
+          <li class="header__list-item text_size_l" data-id="latest-works">Portfolio</li>
+          <li class="header__list-item text_size_l" data-id="blog">Blog</li>
+          <li class="header__list-item text_size_l" data-id="contact">Contact us</li>
         </ul>
   
         <div class="header__search">
           <img src="./image/search.svg" alt="" class="header__search-logo">
         </div>
+        
       </nav>
     </div>
 

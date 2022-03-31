@@ -13,6 +13,14 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+
+    position: relative;
+    background-color: var(--color-white);
+    z-index: 500;
+
+    position: fixed;
+
+    transition: all linear 0.2s;
 }
 
 .header__nav {
@@ -28,6 +36,8 @@
     padding: 0;
     margin: 0;
     height: 100%;
+    
+
 }
 
 .header__list-item {
@@ -52,6 +62,9 @@
 .header__search {
     margin-left: 10px;
     padding-top: 5px;
+
+    width: 25px;
+    height: 25px;
 }
 
 .header__search-logo {
@@ -73,10 +86,6 @@
     color: white;
 }
 
-.header__text-description {
-    margin-top: 5px;
-}
-
 .header__buttons {
     display: flex;
     flex-direction: row;
@@ -87,8 +96,8 @@
     position: relative;
 }
 
-.header__button {
-    margin: 0 10px;
+.header__button:not(:last-child) {
+    margin-right: 10px;
 }
 
 .header__anchor {
@@ -96,4 +105,75 @@
     width: 40px;
     transform: translateY(200px);
     cursor: pointer;
+}
+
+.header__text-title {
+    font-size: calc(12px + 3.8vw);
+}
+
+.header__text-description {
+    margin-top: 5px;
+    font-size: calc(8px + 1.3vw);
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .header__top {
+        flex-direction: column;
+        padding: 0;
+        height: fit-content;
+        justify-content: initial;
+        transform: translate(-100vw);
+        width: 150px;
+        height: 100%;
+    }
+
+    .header__logo {
+        align-self: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .header__nav {
+        flex-direction: column-reverse;
+    }
+
+    .header__list {
+        /* display: none; */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header__list-item {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 1.7rem;
+    }
+
+    .header__search {
+        padding: 0;
+        margin: 0;
+
+        margin-bottom: 20px;
+    }
+
+    .header__top_active {
+        transform: translate(0);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__buttons {
+        flex-direction: column;
+    }
+
+    .header__button {
+        margin-right: 0;
+        margin-bottom: 20px;
+
+        width: 150px;
+    }
 }

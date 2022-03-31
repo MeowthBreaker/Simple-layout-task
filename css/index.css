@@ -3,6 +3,9 @@
 @import url(button.css);
 
 @import url(slider.css);
+@import url(burger.css);
+
+@import url(top-arrow.css);
 
 @import url(header.css);
 @import url(about.css);
@@ -36,6 +39,8 @@ body {
     overflow-x: hidden;
     
     width: 100%;
+
+    position: relative;
 }
 
 html {

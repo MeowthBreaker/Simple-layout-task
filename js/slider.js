@@ -19,7 +19,7 @@ sliders.forEach(slider => {
     let index = 0;
     let x = null;
 
-    slider.addEventListener("pointerup", (e) => {
+    slider.addEventListener("mouseup", (e) => {
         if(x - e.clientX < -50) {
             if(index === 0)
                 buttons.children[buttons.children.length - 1].click();
@@ -34,7 +34,7 @@ sliders.forEach(slider => {
         }
     });
 
-    slider.addEventListener("pointerdown", (e) => {
+    slider.addEventListener("mousedown", (e) => {
         x = e.clientX;
     });
 
